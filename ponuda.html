@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Prodaja namestaja</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0">
+
+    <script src="scripts/js/jquery-2.11.min.js"></script>
+    <script src="scripts/js/jquery.flexslider-min.js"></script>
+    <script src="scripts/js/lightbox.js"></script>
+    <script src="scripts/js/main.js"></script>
+
+</head>
+<body class="ponuda">
+<header>
+    <div class="container">
+        <div class="row">
+                <ul class="navigacija">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ponuda.html">Ponuda</a></li>
+                    <li><a href="o-nama.html">O nama</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="slika">
+        <img src="./img/ugaona1.jpg" alt="">
+    </div>
+    <div class="ponuda">
+        <div class="containerPonuda">
+                   <div class="rowPonuda1">
+
+                      <div class="itemPonuda-1" >
+                        <img src="./img/ugaona2.jpg" alt="">
+                        <h3>Dakota</h3>
+                        <p >Prostrana dnevna soba zahteva nameštaj širih dimenzija koji će, svojim savršenim stilom, uneti harmoniju u Vaš enterijer. Upravo ovo Vam Dakota ugaona garnitura može pružiti</p>
+                        <p>Cena: 306,990din</p>
+                    </div>
+
+                    <div class="itemPonuda-2">
+                        <img src="./img/ugaona3.jpg" alt="">
+                        <h3>Stick</h3>
+                        <p >Vratite u život svoju dnevnu sobu uz Stick ugaonu garnituru. Savremen izgled ovog modela u kombinaciji sa udobnim dušecima, pravi je izbor za dnevnu sobu sa stilom</p>
+                        <p>Cena: 267,690din</p>
+                    </div>
+                    <div class="itemPonuda-3" >
+                        <img src="./img/ugaona4.jpg" alt="">
+                        <h3>Madera</h3>
+                        <p>Meko punjenje jastuka ove ugaone garniture pružiće Vam osećaj da sedite na oblacima. Dodatna pogodnost ovog modela je sofa bed mehanizam putem kog se Madera lako tranformiše u udoban krevet.</p>
+                        <p>Cena: 149,990din</p>
+                    </div>
+                    </div>
+                    <div class="rowPonuda2">
+               
+                    <div class="itemPonuda-4">
+                        <img src="./img/ugaona5.jpg" alt="">
+                        <h3>Bravo</h3>
+                        <p>Ova robusna ugaona garnitura sa lift mehanizmom dobila je samo reči hvale od naših korisnika. Uverite se i sami zašto je baš ovaj komad nameštaja dobio naziv Bravo.</p>
+                        <p>Cena: 149,990din</p>
+                    </div>
+                    <div class="itemPonuda-5">
+                        <img src="./img/ugaona6.jpg" alt="">
+                        <h3>City</h3>
+                        <p>Garnitura je rasklopiva. Poseduje sanduk za posteljinu. Masivna konstrukcija/Metalne nogice.
+                        Podesivi nasloni za glavu. Val opruge za dodatnu udobnost. Dostupna u više boja</p>
+                        <p>Cena: 119,999din</p>
+                    </div>
+                    
+                    <div class="itemPonuda-6">
+                        <img src="./img/ugaona7.jpg" alt="">
+                        <h3>Verona Lux</h3>
+                        <p>Verona Lux ugaona garnitura je komad nameštaja od kog zastaje dah. Svetla nijansa ovog modela, u kombinaciji sa većim dimenzijama, čine ga idealnim za prostornije dnevne sobe. 
+                        III kategorija materijala</p>
+                        <p>Cena: 134,990din</p>
+                    </div>
+                </div>
+                <br>
+                <div class="containerPosalji">
+                    <form>
+                        <div class="ime">
+                            <div class="form-group">
+                                <label for="name" style="color: black;">Ime</label>
+                                <input type="text" class="form-control" id="name" placeholder="Unesite ime"
+                                    required="required" />
+                            </div>
+                            <div class="form-group">
+                                <label for="name" style="color: black;">Prezime</label>
+                                <input type="text" class="form-control" id="name" placeholder="Unesite Prezime"
+                                    required="required" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email" style="color: black;">Email adresa</label>
+                                <div class="input-group">
+                                    <input type="email" class="form-control" id="email" placeholder="Unesite email"
+                                        required="required" />
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="name" style="color: black;">
+                                Telefon</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25"
+                                required="required" placeholder="Upišite koji telefon zelite"></textarea>
+                        </div>
+                        <div class="dugme" id="dugmeKontakt">
+                            <button type="submit" class="btn btn-primary pull-right" id="btnContactUs1">Pošalji</button>
+                        </div>
+                    </form>
+                </div>
+
+        </div>
+    </div>
+
+
+</main>
+<footer>
+    <div class="container">
+        <div class="row">
+                <button class="btn btn-info" onclick="document.getElementById('date').innerHTML=Date()">Pogledajte
+                    trenutno vreme
+                </button>
+                <p id="date"></p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
